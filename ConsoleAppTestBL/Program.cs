@@ -16,7 +16,7 @@ namespace ConsoleAppTestBL
             try
             {
                 Strip s = new Strip("titel",list);
-                s.VoegAuteurToe(a2);
+                s.VoegAuteurToe(a2); 
                 //s.Auteurs.Add(a2);
             }
             catch(DomeinException) { Console.WriteLine("ok"); }
